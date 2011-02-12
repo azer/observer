@@ -1,9 +1,29 @@
 {
-  "name":"observer",
-  "version":"1.0.0",
-  "description":"An implementation of observer design pattern.",
-  "author":"Azer Koculu <azer@kodfabrik.com>",
-  "keywords":["observer","pubsub","events"],
-  "directories":{ "lib": "./lib" },
-  "main":"./lib/observer"
+  "name": "observer",
+  "version": "1.0.0",
+  "description": "An implementation of observer design pattern.",
+  "author": "Azer Koculu <azer@kodfabrik.com> (http://azer.kodfabrik.com)",
+  "keywords": [
+    "observer",
+    "pubsub",
+    "events"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/observer",
+  "engines": {
+    "node": "*"
+  },
+  "modules": {
+    "observer.js": "lib/observer.js"
+  },
+  "files": [
+    ""
+  ],
+  "homepage": "http://github.com/azer/observer",
+  "repository": "git://github.com/azer/observer.git",
+  "scripts": {
+    "test": "node test/test.js"
+  }
 }
