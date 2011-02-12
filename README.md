@@ -10,7 +10,7 @@ npm install observer
 
 Usage
 =====
-To create a pub/sub table:
+To create an observation table:
     var EventBroker = require('observer').EventBroker;
 
     var events = new EventBroker;
