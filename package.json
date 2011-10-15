@@ -1,6 +1,6 @@
 {
   "name": "observer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An implementation of observer design pattern.",
   "author": "Azer Koculu <azer@kodfabrik.com> (http://azer.kodfabrik.com)",
   "keywords": [
@@ -12,15 +12,6 @@
     "lib": "./lib"
   },
   "main": "./lib/observer",
-  "engines": {
-    "node": "*"
-  },
-  "modules": {
-    "observer.js": "lib/observer.js"
-  },
-  "files": [
-    ""
-  ],
   "homepage": "http://github.com/azer/observer",
   "repository": "git://github.com/azer/observer.git",
   "scripts": {
