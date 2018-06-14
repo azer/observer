@@ -11,8 +11,8 @@ npm install observer
 Usage
 =====
 To create an observation table:
+```js
     var EventBroker = require('observer').EventBroker;
-
     var events = new EventBroker;
     events.create('foobar');
 
@@ -23,8 +23,9 @@ To create an observation table:
 
     // => observer#1, 3, 14
     // => observer#2, 3, 14
-
+```
 To create an observable class:
+```js
     var Observable = require('observer').Observable,
         inherits   = require('util').inherits;
 
@@ -38,7 +39,7 @@ To create an observable class:
     f.events.publish('qux',3,14);
 
     // => observer#3, 3, 14
-
+```
 Testing
 =======
 node test/test.js
